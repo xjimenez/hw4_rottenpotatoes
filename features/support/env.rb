@@ -6,6 +6,12 @@
 
 require 'cucumber/rails'
 
+
+# hw4:
+require 'simplecov'
+SimpleCov.start 'rails'
+
+
 # Capybara defaults to XPath selectors rather than Webrat's default of CSS3. In
 # order to ease the transition to Capybara we set the default here. If you'd
 # prefer to use XPath just remove this line and adjust any selectors in your
